@@ -1,0 +1,338 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	margin-left: 20px;
+	padding-top: 18px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+nav ul li:hover{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 4px;
+	color: #000;
+
+}
+
+nav ul li a:hover{
+	color: #000;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav{
+	background-color: #17202A;
+	height: 60px;
+}
+
+.li4{
+	margin-left: 73%;
+}
+
+.encabezado{
+	background-image: url('http://www.clonick.com/wp-content/uploads/2017/05/programacion-paginas-internet-mexico-monterrey.jpg');
+	background-attachment: fixed;
+	height: 200px;
+	text-align: center;
+}
+
+.encabezado h1{
+	padding-top: 50px;
+	color: #fff;
+	font-size: 70px;
+	text-shadow: 10px 10px #000;
+}
+
+.tipos div{
+	text-align: center;
+	height: 150px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 30%;
+	display: inline-block;
+}
+
+.div-a{
+	background-color: #CCD1D1  ;
+}
+
+.div-i{
+	background-color: #B2BABB;
+}
+
+.div-e{
+	background-color: #7F8C8D;
+}
+
+.tipos{
+	background-color: #212F3C;
+}
+
+.art-buscador{
+	width: 100%;
+	background-color: #D35400;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.buscar{
+	width: 50%;
+	border-radius: 8px;
+	height: 25px;
+}
+.btn-buscar{
+	border-radius: 4px;
+	color: #fff;
+	background-color: #17202A;
+	height: 25px;
+	width: 10%;
+}
+.info-perfil{
+	background-color: #F4D03F;
+	width: 20%;
+}
+
+.proyecto{
+	background-color: #2ECC71;
+	width: 20%;
+}
+
+.info-proyecto{
+	background-color: #3498DB;
+	width: 59.4%;
+}
+
+.info-proyecto, .proyecto, .info-perfil{
+	display: inline-block;
+	text-align: center;
+	height: 200px;
+}
+
+.info{
+	background-color: #808B96;
+	padding: 10px;
+}
+
+footer img{
+	padding-top: 20px;
+	width:  40px;
+}
+footer{
+	text-align: center;
+}
+
+footer img:hover{
+	width: 50px;
+}
+
+
+.container{
+	background-image: url('http://www.bluecoastweb.com/uploads/work/img-home-krux.jpg');
+	background-attachment: fixed;
+	height: 300px;
+	width: 50%;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 15px;
+}
+
+label{
+	color: #fff
+}
+
+input[type=text]{
+	width: 40%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 5px;
+}
+
+.Enviar {
+    background-color: #ff8000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+.Enviar:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.contactenos{
+	background-image: url('https://i.pinimg.com/originals/a0/73/2f/a0732f8b3693f76363d6e5307ec43996.jpg');
+	background-attachment: fixed;
+}
+
+.contactenos h1{
+	text-align: center;
+	color: #fff;
+	font-size: 70px;
+	text-shadow: 10px 10px #000;
+}
+.body{
+
+	background-color: #5D6D7E;
+	height: 1180px;
+}
+
+.par-contac{
+	display: inline-block;
+	background-color: #273746;
+	margin: 15px;
+}
+.par-contac div{
+	width: 44.9%;
+	text-align: justify;
+	display: inline-block;
+	padding: 30px;
+	color: #fff;
+}
+
+.info-1{
+	background-color: #7F8C8D;
+	height: 300px;
+
+}
+
+
+
+ @media screen and (max-width: 1024px) and (min-width:600px){
+
+.li4{
+	margin-left: 10%;
+}
+
+nav ul li{
+	margin-left: 10%;
+	padding-top: 18px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.tipos div{
+	width: 95%;
+}
+
+
+.info-perfil{
+	width: 49%;
+}
+
+.proyecto{
+	width: 49%;
+}
+
+.info-proyecto{
+	width: 99%;
+}
+
+
+.par-contac{
+	display: inline-block;
+	background-color: #273746;
+	margin: 0;
+}
+.par-contac div{
+	width: 95%;
+	text-align: justify;
+	display: block;
+	padding: 10px;
+	color: #fff;
+}
+
+.body{
+
+	background-color: #5D6D7E;
+	height: 1400px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 599px){
+
+nav ul li{
+	text-align: center;
+	width: 40%;
+}
+
+.li4{
+	margin-left: 20px;
+}
+
+nav{
+	background-color: #17202A;
+	height: 100px;
+}
+
+.encabezado h1{
+	font-size: 50px;
+}
+
+.buscar{
+	width: 40%;
+	border-radius: 8px;
+	height: 25px;
+}
+.btn-buscar{
+	border-radius: 4px;
+	color: #fff;
+	background-color: #17202A;
+	height: 25px;
+	width: 20%;
+}
+
+.tipos div{
+	width: 90%;
+}
+
+.info-perfil{
+	width: 99%;
+}
+
+.proyecto{
+	width: 99%;
+}
+
+.info-proyecto{
+	width: 99%;
+}
+
+
+}
